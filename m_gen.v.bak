@@ -1,0 +1,6 @@
+module m_gen(clk,res,y);
+input clk;
+input res;
+output y;
+reg[3:0] d;//定义4位寄存器
+endmodule

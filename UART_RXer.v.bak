@@ -1,0 +1,9 @@
+module UART_RXer(
+clk,
+res,
+RX,
+data_out,
+en_data_out
+);
+
+endmodule

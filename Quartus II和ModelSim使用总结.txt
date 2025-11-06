@@ -1,0 +1,7 @@
+2025.10.27
+Quartus II中module无法代码折叠，在Tools中也没有找到相关选项。
+
+ModelSim中选择.v文件编译成功后 在Library中选择对应的testbench模块（编译完后将根据verilog代码生成各个module）仿真，
+仿真完后将Objects里面的端口信号add to 然后选择Wave（signals to region将整块区域的代买全部添加到wave窗口），
+这时会自动打开Wave窗口(wave和.v文件 窗口的切换 在对应下边栏,Library和sim窗口的切换同理)。
+然后再Restart，再Run -all，即可查看波形,按Zoom Full可将波形缩放至合适大小.

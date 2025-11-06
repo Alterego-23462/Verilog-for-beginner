@@ -1,0 +1,13 @@
+//2025.11.1
+module m_counter(clk,res,s_sum);
+input clk;
+input res;
+output s_sum;
+reg s_pulse;
+reg s_counter;
+endmodule
+
+module m_counter_tb;
+m_counter m_counter(.clk(clk),.res(res),.s_sum(s_sum));
+
+endmodule
